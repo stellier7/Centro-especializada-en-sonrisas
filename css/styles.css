@@ -905,9 +905,9 @@ body.nav-open {
 }
 
 .gallery__item {
-  flex: 0 0 85%;
-  max-width: 420px;
-  aspect-ratio: 4 / 3;
+  flex: 0 0 72%;
+  max-width: 320px;
+  aspect-ratio: 3 / 4;
   border-radius: var(--radius-md);
   overflow: hidden;
   background: var(--color-gallery-placeholder);
@@ -938,7 +938,8 @@ body.nav-open {
   }
   
   .gallery__item {
-    flex: 0 0 340px;
+    flex: 0 0 280px;
+    max-width: 280px;
     scroll-snap-align: start;
   }
 
