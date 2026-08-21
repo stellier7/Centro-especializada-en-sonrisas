@@ -73,8 +73,8 @@ const config = {
     softBg: "",
     // TODO: Add logo — drop transparent PNG/SVG at assets/images/centro/logo.png
     logoUrl: "",
-    // TODO: Add hero photo — drop image at assets/images/centro/hero.jpg then update path
-    heroImageUrl: "assets/images/hero.jpg",
+    // TODO: Add hero photo — drop image at assets/images/centro/hero.jpg
+    heroImageUrl: "assets/images/centro/hero.jpg",
   },
 
   // ---------------------------------------------------------------------------
