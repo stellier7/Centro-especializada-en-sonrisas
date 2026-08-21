@@ -431,7 +431,9 @@
           .toUpperCase();
 
         const photo = d.photoUrl
-          ? `<img src="${escapeAttr(d.photoUrl)}" alt="${escapeAttr(d.name)}" loading="lazy" decoding="async" />`
+          ? `<img src="${escapeAttr(d.photoUrl)}" alt="${escapeAttr(d.name)}" loading="lazy" decoding="async"${
+              d.photoPosition ? ` style="object-position:${escapeAttr(d.photoPosition)}"` : ""
+            } />`
           : `<div class="dentist-card__placeholder" aria-hidden="true">${escapeHtml(initials)}</div>`;
 
         return `
@@ -823,9 +825,14 @@
     }
 
     section.hidden = false;
-    const query = encodeURIComponent(addr.mapsQuery || fullAddress);
-    const mapsEmbed = `https://www.google.com/maps?q=${query}&output=embed`;
-    const mapsLink = `https://www.google.com/maps/dir/?api=1&destination=${query}`;
+    const coords = addr.coords;
+    const query = coords
+      ? `${coords.lat},${coords.lng}`
+      : encodeURIComponent(addr.mapsQuery || fullAddress);
+    const mapsEmbed = `https://www.google.com/maps?q=${query}&hl=es&z=17&output=embed`;
+    const mapsLink =
+      addr.mapsUrl ||
+      `https://www.google.com/maps/dir/?api=1&destination=${query}`;
 
     const hoursRows = DAY_ORDER.map((day) => {
       const value = cfg.practice.hours?.[day];

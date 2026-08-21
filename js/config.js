@@ -41,8 +41,8 @@ const config = {
       city: "Tegucigalpa",
       state: "Francisco Morazán, Honduras",
       zip: "",
-      // Exact Google Maps pin from the clinic's place link
-      mapsQuery: "place_id:ChIJebMcPOu9b48Rc3Wz-qgkKqo",
+      mapsUrl: "https://maps.app.goo.gl/cKKDpYRoVuwNJRtz7",
+      coords: { lat: 14.0709904, lng: -87.1832024 },
     },
 
     hours: {
@@ -240,6 +240,7 @@ const config = {
         es: "El Dr. Cárdenas se especializa en endodoncia y cuidado pulpar, ayudando a aliviar el dolor y conservar los dientes naturales con un tratamiento preciso y gentil.",
       },
       photoUrl: "assets/images/centro/doctors/oscar-cardenas.jpeg",
+      photoPosition: "center 22%",
     },
     {
       name: "Dra. Ana Méndez",
@@ -252,6 +253,7 @@ const config = {
         es: "La Dra. Méndez diseña planes de ortodoncia personalizados para niños y adultos, guiando a cada paciente hacia una sonrisa más sana y segura.",
       },
       photoUrl: "assets/images/centro/doctors/Ana-mendez.jpeg",
+      photoPosition: "center 22%",
     },
     {
       name: "Dr. Cesar Linares",
