@@ -376,11 +376,12 @@ const config = {
   // SMILE GALLERY
   // ---------------------------------------------------------------------------
   gallery: [
-    "assets/images/gallery/smile-01.jpg",
-    "assets/images/gallery/smile-02.jpg",
-    "assets/images/gallery/smile-03.jpg",
-    "assets/images/gallery/smile-04.jpg",
-    "assets/images/gallery/smile-05.jpg",
+    "assets/images/gallery/IMG_0328.jpeg",
+    "assets/images/gallery/IMG_0332.jpeg",
+    "assets/images/gallery/IMG_0336.jpeg",
+    "assets/images/gallery/IMG_0337.jpeg",
+    "assets/images/gallery/IMG_0338.jpeg",
+    "assets/images/gallery/IMG_0339.jpeg",
   ],
 
   // ---------------------------------------------------------------------------
