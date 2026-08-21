@@ -239,7 +239,7 @@ const config = {
         en: "Dr. Cárdenas focuses on root canal therapy and pulp care, helping patients relieve pain and preserve their natural teeth with precise, gentle treatment.",
         es: "El Dr. Cárdenas se especializa en endodoncia y cuidado pulpar, ayudando a aliviar el dolor y conservar los dientes naturales con un tratamiento preciso y gentil.",
       },
-      photoUrl: "assets/images/centro/doctors/Doctor-cardenas.jpeg",
+      photoUrl: "assets/images/centro/doctors/oscar-cardenas.jpeg",
     },
     {
       name: "Dra. Ana Méndez",
@@ -251,7 +251,7 @@ const config = {
         en: "Dra. Méndez creates personalized orthodontic plans for children and adults, guiding each patient toward a healthier, more confident smile.",
         es: "La Dra. Méndez diseña planes de ortodoncia personalizados para niños y adultos, guiando a cada paciente hacia una sonrisa más sana y segura.",
       },
-      photoUrl: "assets/images/centro/doctors/Doctor-mendez.jpeg",
+      photoUrl: "assets/images/centro/doctors/ana-mendez.jpeg",
     },
     {
       name: "Dr. Cesar Linares",
@@ -263,7 +263,7 @@ const config = {
         en: "Dr. Linares specializes in facial harmonization, enhancing natural features with balanced, aesthetic results tailored to each patient.",
         es: "El Dr. Linares se especializa en armonización facial, realzando rasgos naturales con resultados estéticos equilibrados y personalizados.",
       },
-      photoUrl: "assets/images/centro/doctors/Doctor-linares.jpeg",
+      photoUrl: "assets/images/centro/doctors/cesar-linares.jpeg",
     },
   ],
 
@@ -346,19 +346,16 @@ const config = {
   // ---------------------------------------------------------------------------
   // FINANCING IMAGES
   // ---------------------------------------------------------------------------
-  // TODO: Replace placeholder SVGs with BAC and Ficohsa logos:
-  //   assets/images/centro/financing/bac.jpg
-  //   assets/images/centro/financing/ficohsa.jpg
   financingImages: [
     {
-      src: "assets/images/financing/financing-01.svg",
+      src: "assets/images/financing/Bac.png",
       alt: {
         en: "BAC financing",
         es: "Financiamiento BAC",
       },
     },
     {
-      src: "assets/images/financing/financing-02.svg",
+      src: "assets/images/financing/IMG_0239.png",
       alt: {
         en: "Ficohsa financing",
         es: "Financiamiento Ficohsa",
