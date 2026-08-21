@@ -71,10 +71,8 @@ const config = {
     accentColor: "#C9A66B",
     primaryDark: "",
     softBg: "",
-    // TODO: Add logo — drop transparent PNG/SVG at assets/images/centro/logo.png
-    logoUrl: "",
-    // TODO: Add hero photo — drop image at assets/images/centro/hero.jpg
-    heroImageUrl: "assets/images/centro/hero.jpg",
+    logoUrl: "assets/images/Logo.jpeg",
+    heroImageUrl: "assets/images/Hero.jpeg",
   },
 
   // ---------------------------------------------------------------------------
@@ -230,7 +228,6 @@ const config = {
   // ---------------------------------------------------------------------------
   // DENTISTS
   // ---------------------------------------------------------------------------
-  // TODO: Drop doctor photos at the photoUrl paths below (assets/images/centro/doctors/)
   dentists: [
     {
       name: "Dr. Óscar Cárdenas",
@@ -242,8 +239,7 @@ const config = {
         en: "Dr. Cárdenas focuses on root canal therapy and pulp care, helping patients relieve pain and preserve their natural teeth with precise, gentle treatment.",
         es: "El Dr. Cárdenas se especializa en endodoncia y cuidado pulpar, ayudando a aliviar el dolor y conservar los dientes naturales con un tratamiento preciso y gentil.",
       },
-      // TODO: Add photo — assets/images/centro/doctors/oscar-cardenas.jpg
-      photoUrl: "assets/images/centro/doctors/oscar-cardenas.jpg",
+      photoUrl: "assets/images/centro/doctors/Doctor-cardenas.jpeg",
     },
     {
       name: "Dra. Ana Méndez",
@@ -255,8 +251,7 @@ const config = {
         en: "Dra. Méndez creates personalized orthodontic plans for children and adults, guiding each patient toward a healthier, more confident smile.",
         es: "La Dra. Méndez diseña planes de ortodoncia personalizados para niños y adultos, guiando a cada paciente hacia una sonrisa más sana y segura.",
       },
-      // TODO: Add photo — assets/images/centro/doctors/ana-mendez.jpg
-      photoUrl: "assets/images/centro/doctors/ana-mendez.jpg",
+      photoUrl: "assets/images/centro/doctors/Doctor-mendez.jpeg",
     },
     {
       name: "Dr. Cesar Linares",
@@ -268,8 +263,7 @@ const config = {
         en: "Dr. Linares specializes in facial harmonization, enhancing natural features with balanced, aesthetic results tailored to each patient.",
         es: "El Dr. Linares se especializa en armonización facial, realzando rasgos naturales con resultados estéticos equilibrados y personalizados.",
       },
-      // TODO: Add photo — assets/images/centro/doctors/cesar-linares.jpg
-      photoUrl: "assets/images/centro/doctors/cesar-linares.jpg",
+      photoUrl: "assets/images/centro/doctors/Doctor-linares.jpeg",
     },
   ],
 
