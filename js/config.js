@@ -72,7 +72,7 @@ const config = {
     primaryDark: "",
     softBg: "",
     logoUrl: "assets/images/Logo.jpeg",
-    heroImageUrl: "assets/images/Hero.jpeg",
+    heroImageUrl: "assets/images/hero.jpeg",
   },
 
   // ---------------------------------------------------------------------------
@@ -251,7 +251,7 @@ const config = {
         en: "Dra. Méndez creates personalized orthodontic plans for children and adults, guiding each patient toward a healthier, more confident smile.",
         es: "La Dra. Méndez diseña planes de ortodoncia personalizados para niños y adultos, guiando a cada paciente hacia una sonrisa más sana y segura.",
       },
-      photoUrl: "assets/images/centro/doctors/ana-mendez.jpeg",
+      photoUrl: "assets/images/centro/doctors/Ana-mendez.jpeg",
     },
     {
       name: "Dr. Cesar Linares",

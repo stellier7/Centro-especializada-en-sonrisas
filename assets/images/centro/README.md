@@ -4,11 +4,11 @@ Current layout for this site:
 
 ```
 assets/images/
+├── hero.jpeg              ← branding.heroImageUrl
 ├── Logo.jpeg              ← branding.logoUrl
-├── Hero.jpeg              ← branding.heroImageUrl
 ├── centro/doctors/
 │   ├── oscar-cardenas.jpeg
-│   ├── ana-mendez.jpeg
+│   ├── Ana-mendez.jpeg
 │   └── cesar-linares.jpeg
 ├── gallery/
 │   └── IMG_0328.jpeg … IMG_0339.jpeg
