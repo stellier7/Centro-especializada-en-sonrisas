@@ -375,9 +375,13 @@ const config = {
   // ---------------------------------------------------------------------------
   // SMILE GALLERY
   // ---------------------------------------------------------------------------
-  // Empty array hides the Gallery section until before/after photos are added.
-  // TODO: Add gallery images, e.g. assets/images/centro/gallery/smile-01.jpg
-  gallery: [],
+  gallery: [
+    "assets/images/gallery/smile-01.jpg",
+    "assets/images/gallery/smile-02.jpg",
+    "assets/images/gallery/smile-03.jpg",
+    "assets/images/gallery/smile-04.jpg",
+    "assets/images/gallery/smile-05.jpg",
+  ],
 
   // ---------------------------------------------------------------------------
   // SOCIAL LINKS
