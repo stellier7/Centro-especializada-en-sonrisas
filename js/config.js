@@ -230,10 +230,48 @@ const config = {
   // ---------------------------------------------------------------------------
   // DENTISTS
   // ---------------------------------------------------------------------------
-  // Empty array hides the entire "Our Team" section until doctor profiles are added.
-  // TODO: Add each doctor with name, title, bio, and photoUrl, e.g.:
-  //   photoUrl: "assets/images/centro/doctors/doctor-name.jpg"
-  dentists: [],
+  // TODO: Drop doctor photos at the photoUrl paths below (assets/images/centro/doctors/)
+  dentists: [
+    {
+      name: "Dr. Óscar Cárdenas",
+      title: {
+        en: "Endodontics Specialist",
+        es: "Especialista en Endodoncia",
+      },
+      bio: {
+        en: "Dr. Cárdenas focuses on root canal therapy and pulp care, helping patients relieve pain and preserve their natural teeth with precise, gentle treatment.",
+        es: "El Dr. Cárdenas se especializa en endodoncia y cuidado pulpar, ayudando a aliviar el dolor y conservar los dientes naturales con un tratamiento preciso y gentil.",
+      },
+      // TODO: Add photo — assets/images/centro/doctors/oscar-cardenas.jpg
+      photoUrl: "assets/images/centro/doctors/oscar-cardenas.jpg",
+    },
+    {
+      name: "Dra. Ana Méndez",
+      title: {
+        en: "Orthodontics Specialist",
+        es: "Especialista en Ortodoncia",
+      },
+      bio: {
+        en: "Dra. Méndez creates personalized orthodontic plans for children and adults, guiding each patient toward a healthier, more confident smile.",
+        es: "La Dra. Méndez diseña planes de ortodoncia personalizados para niños y adultos, guiando a cada paciente hacia una sonrisa más sana y segura.",
+      },
+      // TODO: Add photo — assets/images/centro/doctors/ana-mendez.jpg
+      photoUrl: "assets/images/centro/doctors/ana-mendez.jpg",
+    },
+    {
+      name: "Dr. Cesar Linares",
+      title: {
+        en: "Facial Harmonization Expert",
+        es: "Experto en Armonización Facial",
+      },
+      bio: {
+        en: "Dr. Linares specializes in facial harmonization, enhancing natural features with balanced, aesthetic results tailored to each patient.",
+        es: "El Dr. Linares se especializa en armonización facial, realzando rasgos naturales con resultados estéticos equilibrados y personalizados.",
+      },
+      // TODO: Add photo — assets/images/centro/doctors/cesar-linares.jpg
+      photoUrl: "assets/images/centro/doctors/cesar-linares.jpg",
+    },
+  ],
 
   // ---------------------------------------------------------------------------
   // SERVICES
@@ -276,8 +314,40 @@ const config = {
   // ---------------------------------------------------------------------------
   // TESTIMONIALS
   // ---------------------------------------------------------------------------
-  // Empty array hides the Testimonials section until patient reviews are added.
-  testimonials: [],
+  testimonials: [
+    {
+      quote: {
+        en: "Excellent care from start to finish. The team explained every step of my root canal and I felt comfortable the whole time.",
+        es: "Excelente atención de principio a fin. El equipo me explicó cada paso de mi tratamiento de conducto y me sentí cómoda en todo momento.",
+      },
+      author: "María Elena R.",
+      rating: 5,
+    },
+    {
+      quote: {
+        en: "My orthodontic treatment with Dra. Méndez has been a great experience. Professional, attentive, and always on time.",
+        es: "Mi tratamiento de ortodoncia con la Dra. Méndez ha sido una gran experiencia. Profesional, atenta y siempre puntual.",
+      },
+      author: "Carlos M.",
+      rating: 5,
+    },
+    {
+      quote: {
+        en: "The clinic is modern, clean, and welcoming. I finally found a dental center in Tegucigalpa where I feel truly cared for.",
+        es: "La clínica es moderna, limpia y acogedora. Por fin encontré un centro dental en Tegucigalpa donde me siento realmente bien atendido.",
+      },
+      author: "Sandra P.",
+      rating: 5,
+    },
+    {
+      quote: {
+        en: "Dr. Linares did an amazing job with my facial harmonization. Natural results — exactly what I was hoping for.",
+        es: "El Dr. Linares hizo un trabajo increíble con mi armonización facial. Resultados naturales — justo lo que buscaba.",
+      },
+      author: "Andrea V.",
+      rating: 5,
+    },
+  ],
 
   // ---------------------------------------------------------------------------
   // FINANCING IMAGES
