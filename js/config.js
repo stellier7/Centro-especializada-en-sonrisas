@@ -308,40 +308,8 @@ const config = {
     {
       name: { en: "Facial Harmonization", es: "Armonía Facial" },
       description: {
-        en: "Personalized aesthetic treatments that balance and enhance your facial features for natural, harmonious results.",
-        es: "Tratamientos estéticos personalizados que equilibran y realzan tus rasgos faciales con resultados naturales y armoniosos.",
-      },
-      icon: "cosmetic",
-    },
-    {
-      name: { en: "Botulinum Toxin (Botox)", es: "Toxina Botulínica (Botox)" },
-      description: {
-        en: "Smooth expression lines and refresh your look with precise botulinum toxin applications for subtle, natural rejuvenation.",
-        es: "Suaviza arrugas de expresión y rejuvenece tu rostro con aplicaciones precisas de toxina botulínica para un resultado sutil y natural.",
-      },
-      icon: "cosmetic",
-    },
-    {
-      name: { en: "Calcium Hydroxyapatite", es: "Hidroxiapatita de Calcio" },
-      description: {
-        en: "Biocompatible filler that restores facial volume, defines contours, and stimulates natural collagen for a more youthful appearance.",
-        es: "Relleno biocompatible que restaura volumen facial, define contornos y estimula la producción natural de colágeno para un aspecto más joven.",
-      },
-      icon: "cosmetic",
-    },
-    {
-      name: { en: "NAD+ Therapy", es: "NAD" },
-      description: {
-        en: "NAD+ therapy that supports cellular repair, energy, and overall wellness — an ideal complement to facial aesthetic care.",
-        es: "Terapia con NAD+ que apoya la regeneración celular, la energía y el bienestar general, complementando los tratamientos estéticos faciales.",
-      },
-      icon: "cosmetic",
-    },
-    {
-      name: { en: "Salmon PDRN", es: "PDRN de Salmón" },
-      description: {
-        en: "Regenerative treatment with salmon-derived polynucleotides (PDRN) that improves skin texture, hydration, and tissue healing.",
-        es: "Tratamiento regenerativo con polinucleótidos derivados del salmón (PDRN) que mejora la textura de la piel, la hidratación y la cicatrización.",
+        en: "Personalized aesthetic treatments to balance and enhance your facial features with natural, harmonious results. Includes botulinum toxin (Botox), calcium hydroxyapatite, NAD+ therapy, and salmon PDRN.",
+        es: "Tratamientos estéticos personalizados para equilibrar y realzar tus rasgos faciales con resultados naturales y armoniosos. Incluye toxina botulínica (Botox), hidroxiapatita de calcio, terapia NAD y PDRN de salmón.",
       },
       icon: "cosmetic",
     },
