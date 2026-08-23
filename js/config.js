@@ -19,7 +19,7 @@ const config = {
   // ---------------------------------------------------------------------------
   seo: {
     description:
-      "Centro Especializado en Sonrisas, clinica dental multiespecialidad en Tegucigalpa. Ortodoncia, endodoncia, cirugia maxilofacial y periodoncia. Sonries mejor, vives mejor!",
+      "Centro Especializado en Sonrisas, clinica dental multiespecialidad en Tegucigalpa. Ortodoncia, endodoncia, cirugia maxilofacial, periodoncia y armonizacion facial. Sonries mejor, vives mejor!",
   },
 
   // ---------------------------------------------------------------------------
@@ -304,6 +304,14 @@ const config = {
         es: "Diagnóstico y tratamiento de enfermedades de encías para proteger la base de una sonrisa sana y duradera.",
       },
       icon: "cleaning",
+    },
+    {
+      name: { en: "Facial Harmonization", es: "Armonía Facial" },
+      description: {
+        en: "Personalized aesthetic treatments to balance and enhance your facial features with natural, harmonious results. Includes botulinum toxin (Botox), calcium hydroxyapatite, NAD+ therapy, and salmon PDRN.",
+        es: "Tratamientos estéticos personalizados para equilibrar y realzar tus rasgos faciales con resultados naturales y armoniosos. Incluye toxina botulínica (Botox), hidroxiapatita de calcio, terapia NAD y PDRN de salmón.",
+      },
+      icon: "cosmetic",
     },
   ],
 
